@@ -1,0 +1,36 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "Serverless API backend for project management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.15.1",
+    "@supabase/supabase-js": "^2.38.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "puppeteer": "^21.5.2",
+    "puppeteer-core": "^21.5.2",
+    "html-pdf": "^3.0.1",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "api",
+    "serverless",
+    "vercel",
+    "supabase"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
